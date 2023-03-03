@@ -46,3 +46,29 @@ goButton.addEventListener("click", function () {
     return goOn;
   }
 });
+
+// mouse states
+// mouse enters & exit stop button
+stopButton.addEventListener("mouseenter", (e) => {
+  console.log(`Entered the Stop button.`);
+});
+
+stopButton.addEventListener("mouseleave", (e) => {
+  console.log(`Left the Stop button.`);
+});
+//mouse enters & exit slow button
+slowButton.addEventListener("mouseenter", (e) => {
+  console.log(`Entered the slow button.`);
+});
+
+slowButton.addEventListener("mouseleave", (e) => {
+  console.log(`Left the slow button.`);
+});
+//mouse enters & exit go button
+goButton.addEventListener("mouseenter", (e) => {
+  console.log(`Entered the go button.`);
+});
+
+goButton.addEventListener("mouseleave", (e) => {
+  console.log(`Left the go button.`);
+});

@@ -72,3 +72,7 @@ goButton.addEventListener("mouseenter", (e) => {
 goButton.addEventListener("mouseleave", (e) => {
   console.log(`Left the go button.`);
 });
+
+document.getElementById("controls").addEventListener("click", function () {
+  console.log(slowOn, goOn, stopOn);
+});
